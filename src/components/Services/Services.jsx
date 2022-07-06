@@ -22,7 +22,7 @@ const Services = () => {
             <br />
             I can trust to meet the organization's goals. I am motivated to achieve great success 
             <br />
-            and make achieve great success and make contributions to help people                
+            and make contributions to help people.                
             </spane>
 
             <a href={Resume} download>
