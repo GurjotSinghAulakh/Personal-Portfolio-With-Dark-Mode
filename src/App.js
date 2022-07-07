@@ -6,8 +6,10 @@ import Intro from './components/Intro/Intro'
 import Services from './components/Services/Services';
 import Popup from './components/Popup/Popup';
 import Experience from './components/Experience/Experience';
+import Works from './components/Works/Works';
 
 import { useEffect, useState } from 'react'
+
 
 
 
@@ -27,6 +29,7 @@ function App() {
       <Intro/>
       <Services/>
       <Experience/>
+      <Works/>
     </div>
   );
 }
