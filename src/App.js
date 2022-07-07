@@ -7,10 +7,9 @@ import Services from './components/Services/Services';
 import Popup from './components/Popup/Popup';
 import Experience from './components/Experience/Experience';
 import Works from './components/Works/Works';
+import Portfolio from './components/Portfolio/Portfolio';
 
 import { useEffect, useState } from 'react'
-
-
 
 
 function App() {
@@ -30,6 +29,7 @@ function App() {
       <Services/>
       <Experience/>
       <Works/>
+      <Portfolio/>
     </div>
   );
 }
