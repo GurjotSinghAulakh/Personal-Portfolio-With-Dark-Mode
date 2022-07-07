@@ -5,8 +5,10 @@ import Navbar from './components/Navbar/Navbar'
 import Intro from './components/Intro/Intro'
 import Services from './components/Services/Services';
 import Popup from './components/Popup/Popup';
+import Experience from './components/Experience/Experience';
 
 import { useEffect, useState } from 'react'
+
 
 
 function App() {
@@ -24,6 +26,7 @@ function App() {
       <Navbar/>
       <Intro/>
       <Services/>
+      <Experience/>
     </div>
   );
 }
