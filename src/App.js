@@ -8,6 +8,7 @@ import Popup from './components/Popup/Popup';
 import Experience from './components/Experience/Experience';
 import Works from './components/Works/Works';
 import Portfolio from './components/Portfolio/Portfolio';
+import Testimonials from './components/Testimonials/Testimonials';
 
 import { useEffect, useState } from 'react'
 
@@ -30,6 +31,7 @@ function App() {
       <Experience/>
       <Works/>
       <Portfolio/>
+      <Testimonials/>
     </div>
   );
 }
