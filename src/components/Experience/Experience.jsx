@@ -3,9 +3,9 @@ import './Experience.css'
 
 const Experience = () => {
   return (
-    <div className="experience">
+    <div className="experience" id='Experience'>
         <div className="achievement">
-            <div className="circle">8+</div>
+            <div className="circle" >8+</div>
             <span>years </span>
             <span>Experience</span>
         </div>

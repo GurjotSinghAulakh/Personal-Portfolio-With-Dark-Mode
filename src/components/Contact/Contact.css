@@ -1,8 +1,8 @@
 .contact-form {
-    padding: 0 3rem 0 3rem;
+    padding: 2rem 3rem 0 3rem;
     display: flex;
-    height: 80vh;
-    margin-top: 4rem;
+    height: 70vh;
+    margin-top: 9rem;
 }
 
 .c-right {
@@ -36,5 +36,24 @@ textarea {
 .c-blur1 {
     top: 1rem;
     left: 8rem;
+}
+
+@media screen and (max-width: 480px) {
+    .contact-form{
+        justify-content: center;
+        flex-direction: column;
+        padding: 0;
+        margin-top: 5rem;
+    }
+
+    .c-right {
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+    .c-right .user {
+        width: 97%;
+        margin: 0 auto;
+    }
 }
 
